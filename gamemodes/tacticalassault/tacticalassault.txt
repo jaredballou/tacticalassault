@@ -1,0 +1,53 @@
+"tacticalassault"
+{
+	"name"		"Tactical Assault"
+	"version"		"1"
+	"base"		"fretta13"
+	"title"		"Tactical Assault"
+	"menusystem"	"1"
+	"workshopid"	""
+
+	"settings"
+	{
+		1
+		{
+			"name"		"sk_maxfrags"
+			"text"		"Max Frags"
+			"help"		"The maxiumum number of frags before a map change"
+			"type"		"Numeric"
+			"default"	"20"
+		}
+
+
+		2
+		{
+			"name"		"sk_grenades"
+			"text"		"Allow Grenades"
+			"help"		"If enabled then grenades are enabled"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+
+	}
+
+	"author_name"	"Jared Ballou"
+	"author_email"	"gmod@jballou.com"
+	"author_url"	"http://jballou.com"
+	
+	"icon"		""
+	"info"		"New test mode"
+	"hide"		"0"
+
+	"mappattern"
+	{
+		"1"	"^ta_"
+	}
+
+	"fretta_maps"
+	{
+		"1"	"^ta_"
+	}
+
+	"selectable"	"1"
+	"description"	"Work with your squad to win points and kill enemies!"
+}
